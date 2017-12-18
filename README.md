@@ -13,4 +13,13 @@ def main():
     print total
     avg= total/(len(L)+0.0)
     print avg
+main()
         
+def list2():
+    L2=[]
+    for i in range (20):
+        num = randint (1,100)
+        L2.append (num)
+    if i%2
+        print i 
+    
