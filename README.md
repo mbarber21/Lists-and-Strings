@@ -42,6 +42,7 @@ def list2():
 
         
 #how do i keep checking if even from starting integer in list until first even int, print, then stop
+#why check if numbers even if list only prints odd numbers? then how would there be a highest number thats even?
             
 
 
