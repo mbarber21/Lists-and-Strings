@@ -28,11 +28,24 @@ def list2():
     for i in range (20):
         num = randint (1,100)
         L2.append (num)
-    print L2 #sort list then reverse so highest number first and check if even
+    print L2 
     for i in L2:
         if i%2 == 1:
-            print i 
-    
+            print i
+        list.sort(L2)
+    print L2
+    list.reverse(L2) #highest number first- check if even, 'h' as substitution until know how to take first int from list
+    print L2
+
+    if h%2 == 0:
+        print h
+
+        
+#how do i keep checking if even from starting integer in list until first even int, print, then stop
+            
+
+
 list2()
+    
 
     
